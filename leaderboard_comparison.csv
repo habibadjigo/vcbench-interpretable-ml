@@ -1,0 +1,8 @@
+model,type,precision_pct,recall_pct,f0.5_pct,is_ours
+Verifiable-RL (SOTA),LLM (RL),42.6,23.6,36.6,False
+Policy-Induction,LLM,41.0,20.2,33.7,False
+GemVC-v0,LLM,39.4,20.3,32.8,False
+Verifiable-Reasoning,LLM,30.6,21.0,27.9,False
+Structured-Rule-Stump,Tabular ML,32.8,18.0,27.7,False
+Random-Rule-Forest,Hybrid,42.5,12.1,27.5,False
+Ours: RandomForest,Tabular ML (Interpretable),25.079135424199766,23.467222709979517,24.63436841950947,True
